@@ -17,6 +17,8 @@ jobs:
         run: |
           npm install -g pnpm
       - name: install dependencies
-        run: pnpm install
+        run: pnpm install --no-audit --no-fund --no-optional
       - name: lint
         run: pnpm run lint
+      - name: build
+        run: pnpm run build
