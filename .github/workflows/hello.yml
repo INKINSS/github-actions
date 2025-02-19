@@ -8,3 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, World!"
+      - name: dime la fecha
+        run: date
+      - run: esta es la fecha
