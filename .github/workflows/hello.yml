@@ -10,4 +10,5 @@ jobs:
       - run: echo "Hello, World!"
       - name: dime la fecha
         run: date
-      - run: esta es la fecha
+      - name: dime el usuario
+        run: whoami
