@@ -12,3 +12,6 @@ jobs:
       - name: echo message
         run: |
           echo "Hello World"
+      - name: la fecha es
+        run: |
+          date
